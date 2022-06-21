@@ -1,15 +1,15 @@
 .odd {
     background-color: rgb(245, 125, 145);
-    font-family: "Verdana", "DejaVu Sans", sans-serif;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.odder {
+    font-size: 24px;
 }
 
 #two {
     font-size: 36px;
     color: rgb(0, 0, 255);
-}
-
-#fontsize {
-    font-size: 24px;
 }
 
 #four {
