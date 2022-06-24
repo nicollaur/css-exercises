@@ -1,12 +1,19 @@
 body {
   background: #eee;
   font-family: sans-serif;
+  box-sizing: border-box
+}
+
+h1 {
+  margin: 0;
+  paddng: 0;
 }
 
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  border: 15px solid white;
 }
 
 .title {
@@ -19,9 +26,12 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  padding: 10px 15px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 10px 15px;
 }
