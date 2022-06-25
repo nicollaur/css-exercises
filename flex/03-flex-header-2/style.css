@@ -13,7 +13,8 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0, 0, 0, .1);
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
+  justify-content: space-between;
   padding: 8px;
 }
 
@@ -47,9 +48,9 @@ button {
   align-items: center;
 }
 
-.right-side {
+/*.right-side {
   margin-left: auto;
-}
+}*/
 
 a {
   /* this removes the line under our links */
