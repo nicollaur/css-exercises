@@ -15,16 +15,25 @@ body {
   justify-content: space-between;
 }
 
-.footer {
-  background-color: #eee;
-}
-
 .right-links,
 .left-links {
   display: flex;
   gap: 16px;
   padding-left: 0;
   margin: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 54px;
+}
+
+.footer {
+  background-color: #eee;
+  height: 54px;
 }
 
 img {
