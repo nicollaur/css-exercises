@@ -42,3 +42,7 @@ body {
   display: flex;
   flex: 1;
 }
+
+ul li {
+  list-style: none;
+}
