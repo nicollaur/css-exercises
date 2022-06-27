@@ -23,6 +23,21 @@ body {
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
+}
+
+/* SOLUTION */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.body {
+  display: flex;
 }
