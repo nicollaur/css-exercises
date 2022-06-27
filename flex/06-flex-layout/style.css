@@ -13,6 +13,8 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
+  /* solution: */
+  padding: 16px;
 }
 
 .right-links,
@@ -20,7 +22,7 @@ body {
   display: flex;
   gap: 16px;
   padding-left: 0;
-  margin: 16px;
+  /* margin: 16px; */
 }
 
 .content {
@@ -29,12 +31,12 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .footer {
   background-color: #eee;
-  height: 54px;
+  /* height: 54px; */
 }
 
 img {
@@ -58,10 +60,16 @@ input {
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
+  /* solution: */
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px
 }
 
 a {
   text-decoration: none;
-  color: grey;
+  /* color: grey; */
+  color: #666;
 }
