@@ -34,10 +34,11 @@ body {
 }
 
 .header {
-  font-weight: bold;
-  font-size: 2rem;
+  font-weight: 900;
+  font-size: 32px;
   display: flex;
   align-items: center;
+  padding-left: 16px;
 }
 
 .body {
@@ -45,19 +46,37 @@ body {
   flex: 1;
 }
 
+.sidebar {
+  padding: 16px;
+}
+
+.all-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+.card {
+  max-height: 350px;
+  max-width: 300px;
+  margin: 16px;
+}
+
 ul {
   margin: 0;
-  padding: 10px;
   list-style: none;
+  gap: 16px;
 }
 
 li {
-  margin: 16px 0;
+  margin: 16px;
 }
 
 a {
   text-decoration: none;
   color: white;
+  font-size: 24px;
 }
 
 .footer {
